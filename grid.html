@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Styl Grid Test</title>
+	<link rel="stylesheet" type="text/css" href="css/styl.css">
+	<style>
+		body
+		{
+			width: 960px;
+			margin: 0 auto;
+			font-family: Helvetica, Arial, sans-serif;
+			line-height: 1.2;
+		}
+		h1
+		{
+			text-align: center;
+			font-size: 400%;
+			margin: 20px 0;
+		}
+		[class*='grid']
+		{
+			background: #ccc;
+			float: left;
+			margin-right: 1%;
+			text-align: center;
+			font-size: 100%;
+			line-height: 140%;
+			font-size: 140%;
+			margin-bottom: 10px;
+		}
+		[class*='grid']:hover
+		{
+			background: #999;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Styl Grid</h1>
+
+	<div class="row">
+
+		<div class="grid1">.grid1</div>
+		<div class="grid11">.grid11</div>
+	</div>
+
+	<div class="row">
+		<div class="grid2">.grid2</div>
+		<div class="grid10">.grid10</div>
+	</div>
+
+	<div class="row">
+		<div class="grid3">.grid3</div>
+		<div class="grid9">.grid9</div>
+	</div>
+
+	<div class="row">
+		<div class="grid4">.grid4</div>
+		<div class="grid8">.grid8</div>
+	</div>
+
+	<div class="row">
+		<div class="grid5">.grid5</div>
+		<div class="grid7">.grid7</div>
+	</div>
+
+	<div class="row">
+		<div class="grid6">.grid6</div>
+		<div class="grid6">.grid6</div>
+	</div>
+
+	<div class="row">
+		<div class="grid7">.grid7</div>
+		<div class="grid5">.grid5</div>
+	</div>
+
+	<div class="row">
+		<div class="grid8">.grid8</div>
+		<div class="grid4">.grid4</div>
+	</div>
+
+	<div class="row">
+		<div class="grid9">.grid9</div>
+		<div class="grid3">.grid3</div>
+	</div>
+
+	<div class="row">
+		<div class="grid10">.grid10</div>
+		<div class="grid2">.grid2</div>
+	</div>
+
+	<div class="row">
+		<div class="grid11">.grid11</div>
+		<div class="grid1">.grid1</div>
+	</div>
+</body>
+</html>
