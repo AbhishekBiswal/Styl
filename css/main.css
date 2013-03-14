@@ -1,0 +1,64 @@
+body
+{
+	padding-top: 170px;
+}
+
+[class*='grid']
+{
+	background: #ddd;
+	float: left;
+	margin-right: 1%;
+	text-align: center;
+	font-size: 100%;
+	line-height: 140%;
+	font-size: 140%;
+	margin-bottom: 10px;
+}
+[class*='grid']:hover
+{
+	background: #ccc;
+}
+.grids
+{
+	width: 100%;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 700%;
+}
+
+h3
+{
+	line-height: 1.2;
+	border-bottom: 1px solid #ddd;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+h2.tagline
+{
+	font-size: 100%;
+	text-align: center;
+	font-weight: normal;
+	margin: 15px 0;
+	display: block;
+	line-height: 1.4;
+}
+
+header
+{
+	background: #251137;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 160px;
+	color: #FFF !important;
+}
+header h1, header h2, header a
+{
+	color: #F5F5F5 !important;
+	text-shadow: 1px 0px 2px rgba(0,0,0,0.3);
+}

@@ -54,12 +54,22 @@ table {
 body
 {
 	font-size: 100%;
+	font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.wrap
+{
+	max-width: 960px;
+	margin: 0 auto;
 }
 .row { padding-bottom: 20px; }
 .row:after
 {
 	clear: both;
 	display: block;
+}
+[class*='grid']
+{
+	float: left;
 }
 .grid1 { width: 8%; }
 .grid2 { width: 16%; }
@@ -73,3 +83,46 @@ body
 .grid10 { width: 82%; }
 .grid11 { width: 90%; }
 .grid12 { width: 100%; }
+
+/* Type */
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: bold;
+	color: #000;
+}
+
+h1 { font-size: 400%; }
+h2 { font-size: 300%; }
+h3 { font-size: 200%; }
+h4 { font-size: 150%; }
+
+/* Links */
+a:link, a:visited
+{
+	color: #26B;
+	text-decoration: none;
+}
+
+/* Buttons */
+.btn
+{
+	padding: 10px 40px;
+	display: inline-block;
+	background: #999;
+	color: #FFF !important;
+	cursor: pointer;
+	text-decoration: none;
+	transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	-webkit-transition: opacity 0.3s;
+	-ms-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+}
+.btn:hover
+{
+	opacity: 0.8;
+}
+.btn.blue
+{
+	background: #26B; /* Achal - #26B :P */
+}
